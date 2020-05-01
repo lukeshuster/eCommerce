@@ -1,0 +1,447 @@
+/* General Styling */
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+}
+
+h1 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 25px;
+}
+
+h2 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 25px;
+}
+
+section{
+	width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Link Styling LVHA*/
+a:link {
+    color: #383838;
+}
+
+a:visited {
+    color: #383838;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: #DCD0C0;
+}
+/* End of General Styling */
+
+
+
+/* Main Navigation */
+header {
+	width: 100%;
+    height: 151px;
+	line-height: 151px;
+    background-color: #F4F4F4;
+	overflow: hidden;
+	border-top-style: solid;
+    border-bottom-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+.main-nav {
+    width: 90%;
+	overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    display: inline-block;
+    vertical-align: top;
+	margin: 5px 100px 5px 0;
+}
+.main-nav a {
+    display: inline-block;
+    vertical-align: top;
+	margin-right: -4px; 	/* remove that white space between <a> elements */
+    height: 151px; 
+	width: 151px;
+    color: #383838;
+    text-align: center;
+    padding-left: 15px;
+	padding-right: 15px;
+    text-decoration: none;
+	font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+}
+
+/* Change the color of links on hover */
+.main-nav a:hover {
+    background-color: #dddddd;
+    color: black;
+}
+
+
+/* Change the color to the active link (the page we are on now) */
+.main-nav a.active {
+    background-color: #383838;
+    color: white;
+}
+
+/* Change the color of the clicked link */
+.main-nav a:active {
+    background-color: #DCD0C0;
+    color: white
+}
+/* End of Main Navigation */
+
+
+
+
+
+
+/* Display for Products Page*/
+figure {
+	text-align: center;
+	margin:2px;
+	display:inline-block;
+	vertical-align:top;
+	border: 2px solid #383838;
+	position:relative;
+	padding-bottom:4.4em;
+}
+figure img {
+	display:block;
+	border: 4px solid #F4F4F4;
+}
+figure img:hover {
+	opacity: 0.5;
+}
+
+figcaption{
+	background:#F4F4F4;  
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	padding:0.2em 2px;
+	min-height:4em;
+}
+
+figcaption p {
+	margin:0;
+	font-size: 12px;
+}
+
+figcaption a {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 15px;
+}
+
+#prod-img {
+	min-width:180px;
+	max-width:600px;
+	margin:auto; 
+}
+/* End of Products Page*/
+
+
+
+
+
+
+/* Single Product Page*/
+#product-images img{
+	float: left;
+	border: 4px solid #383838;
+	
+}
+.inactive-image{
+	margin: 362px 20px 4px 4px;
+}
+
+.inactive-image:hover {
+	opacity: 0.5;
+	cursor: pointer;
+}
+.product-decription {
+	float: right;
+}
+
+.product-price{
+    font-size: 28px;
+	font-family: 'Berkshire Swash', cursive;
+    border: none;
+
+}
+
+
+#button-decrease{
+	width: 50px;
+	height: 50px;
+	border-radius: 12px;
+    background-color: #383838;
+    border: none;
+    color: white;
+	font-size: 20px;
+}
+
+#button-decrease:hover {
+	cursor: pointer;
+}
+
+#button-decrease:active {
+	background-color: #DCD0C0;
+}
+
+#button-increase{
+	width: 50px;
+	height: 50px;
+	border-radius: 12px;
+    background-color: #383838;
+    border: none;
+    color: white;
+	font-size: 20px;
+}
+
+#button-increase:hover {
+	cursor: pointer;
+}
+
+#button-increase:active {
+	background-color: #DCD0C0;
+}
+
+#quantity{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid #383838;
+	background:#F4F4F4;
+}
+
+.button-purchase {
+    background-color: #383838;
+    border: none;
+    color: white;
+	margin-left: 20px;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	border-radius: 12px;
+}
+.button-purchase:hover {
+	cursor: pointer;
+    box-shadow: 8px 8px 8px #888888;
+}
+.button-purchase:active {
+	background-color: #DCD0C0;
+}
+/* End of Single Product*/
+
+
+
+
+
+
+/* Login Page*/
+.login {
+	margin: 20px auto;
+	width: 500px;
+	padding: 30px 25px;
+	border: 2px solid #383838;
+	background: #F4F4F4; 
+}
+
+
+.login-input {
+	width: 485px;
+	height: 50px;
+	margin-bottom: 25px;
+	padding-left:10px;
+	background: #fff;
+	border: 1px solid #cccccc;
+	border-radius: 15px;
+}
+.login-input:focus {
+    border-color:#383838;
+    outline: none;
+  }
+.button-login {
+    background-color: #383838;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	border-radius: 12px;
+	width: 100%;
+
+}
+
+.button-login:hover {
+	cursor: pointer;
+    box-shadow: 8px 8px 8px #888888;
+}
+.button-login:active {
+	background-color: #DCD0C0;
+}
+/*  End of Login */
+
+
+
+
+/* Cart Page*/
+
+#carth1 {
+    margin-top: 0px;
+    font-size: 3.5em;
+    padding: 6px 0;
+    border-top: 2px solid #383838;
+    border-bottom: 2px solid #383838;
+    text-align: center;
+    background: #F4F4F4; 
+}
+
+#wrapper {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #383838;
+}
+
+#cart {
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+}
+#cart thead th {
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+#cart thead th.firstcol {
+    width: 20%;
+}
+#cart thead th.secondcol {
+    width: 20%;
+}
+#cart thead th.thirdcol {
+    width: 20%;
+}
+
+
+#cart tbody td {
+    text-align: center;
+    margin-top: 4px;
+}
+
+tr.productitm {
+    height: 65px;
+    line-height: 65px;
+}
+
+
+.qtyinput {
+    width: 33px;
+    height: 22px;
+    border: 1px solid #383838;
+    background: #F4F4F4;
+    color: #383838;
+    text-align: center;
+}
+
+tr.price {
+    height: 35px;
+    line-height: 35px;
+}
+
+.remove {
+    content: 'X'; 
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+
+.light {
+    color: #888b8d;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.45);
+    font-size: 1.1em;
+    font-weight: normal;
+}
+.thick {
+    color: #272727;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+
+tr.checkoutrow {
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+}
+
+td.checkout {
+    padding: 12px 0;
+    padding-top: 20px;
+    width: 100%;
+    text-align: right;
+}
+
+#emptycartbtn {
+    background-color: #383838;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	border-radius: 12px;
+	width: 100%;
+
+}
+
+#emptycartbtn:hover {
+	cursor: pointer;
+    box-shadow: 8px 8px 8px #888888;
+}
+#emptycartbtn:active {
+	background-color: #DCD0C0;
+}
+
+#submitcartbtn {
+    background-color: #383838;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 20px;
+	font-family: 'Berkshire Swash', cursive;
+	text-align: center;
+	border-radius: 12px;
+	width: 100%;
+
+}
+
+#submitcartbtn:hover {
+	cursor: pointer;
+    box-shadow: 8px 8px 8px #888888;
+}
+#submitcartbtn:active {
+	background-color: #DCD0C0;
+}
+
+/* End Cart*/
